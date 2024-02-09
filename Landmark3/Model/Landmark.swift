@@ -88,3 +88,4 @@ let allLandmarks = [
     rom,
     wonderland,
     kawarthas
+    ]
