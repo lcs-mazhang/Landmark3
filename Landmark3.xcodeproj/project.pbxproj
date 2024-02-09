@@ -11,6 +11,7 @@
 		DFD8E08B2B7689A000EDE5E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD8E08A2B7689A000EDE5E7 /* Assets.xcassets */; };
 		DFD8E08E2B7689A000EDE5E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD8E08D2B7689A000EDE5E7 /* Preview Assets.xcassets */; };
 		DFD8E0962B768A2700EDE5E7 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD8E0952B768A2700EDE5E7 /* DetailView.swift */; };
+		DFD8E0992B768B3500EDE5E7 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD8E0982B768B3500EDE5E7 /* Landmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DFD8E08A2B7689A000EDE5E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFD8E08D2B7689A000EDE5E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DFD8E0952B768A2700EDE5E7 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		DFD8E0982B768B3500EDE5E7 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				DFD8E0862B76899E00EDE5E7 /* Landmark3App.swift */,
+				DFD8E0972B768B1200EDE5E7 /* Model */,
 				DFD8E0942B7689E200EDE5E7 /* Views */,
 				DFD8E08A2B7689A000EDE5E7 /* Assets.xcassets */,
 				DFD8E08C2B7689A000EDE5E7 /* Preview Content */,
@@ -73,6 +76,14 @@
 				DFD8E0952B768A2700EDE5E7 /* DetailView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		DFD8E0972B768B1200EDE5E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DFD8E0982B768B3500EDE5E7 /* Landmark.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +158,7 @@
 			files = (
 				DFD8E0872B76899E00EDE5E7 /* Landmark3App.swift in Sources */,
 				DFD8E0962B768A2700EDE5E7 /* DetailView.swift in Sources */,
+				DFD8E0992B768B3500EDE5E7 /* Landmark.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
