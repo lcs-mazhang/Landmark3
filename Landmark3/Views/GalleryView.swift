@@ -13,7 +13,9 @@ struct GalleryView: View {
         
         NavigationStack {
             
-            List(allLandmarks) { currentLandmark in
+            LazyVGrid {
+            
+            ForEach(allLandmarks) { currentLandmark in
                 
                 NavigationLink {
                     DetailView(item: currentLandmark)
